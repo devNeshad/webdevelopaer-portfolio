@@ -1,0 +1,78 @@
+/* nav related styles  */
+nav{ display: flex;
+justify-content: space-between; 
+align-items: center;
+}   
+.nav-title{
+    color: #181818;
+    font-family: open sans;
+    font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.text-ptimary{
+    color: #fd6e0a;
+}
+.btn-primary{ 
+    text-align: center;
+    
+    background-color: #fd6e0a;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 35px;
+    
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{ 
+    list-style: none;
+margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* common share styles */
+  /* /* body{ */
+ body{
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 300 to 800
+    
+    .open-sans-<uniquifier> {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;}
+    } 
+    
+ 
