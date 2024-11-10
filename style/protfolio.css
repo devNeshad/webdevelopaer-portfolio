@@ -193,9 +193,11 @@ footer {
 .footer-column {
   width: 50%;
 }
-.contact input [type='name'],
-.contact input[type='email'],
-textarea {
+
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
   display: block;
   margin-bottom: 25px;
   padding: 40px 35px;
@@ -204,8 +206,8 @@ textarea {
   background: #fff;
   border: 0;
   width: 100%;
-  /* height: 100px; */
 }
+
 
 .social-links {
   margin-right: 25px;
